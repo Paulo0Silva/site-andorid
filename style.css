@@ -174,7 +174,9 @@ footer {
     background-color: var(--cor5);
     text-align: center;
     color: white;
+    padding-top: 5px;
 }
-footer >p {
-    font-weight: bold;
+footer p::after {
+    content: '\00A9\00a0';
+    padding: 3px;
 }
